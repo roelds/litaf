@@ -30,8 +30,8 @@ func main() {
 		log.Fatalln(err)
 	}
 
-	// Convert []byte to string
-	text1 := string(file1)
+	// Convert []byte to string & trim trailing newline
+	text1 := strings.TrimRight(string(file1), "\n")
 	fmt.Println(text1)
 
 	file2, err := os.ReadFile(file2flag)
@@ -39,8 +39,8 @@ func main() {
 		log.Fatalln(err)
 	}
 
-	// Convert []byte to string
-	text2 := string(file2)
+	// Convert []byte to string & trim trailing newline
+	text2 := strings.TrimRight(string(file2), "\n")
 	fmt.Println(text2)
 
 	input, err := os.ReadFile(file3flag)
