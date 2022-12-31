@@ -24,4 +24,5 @@ echo, & other cmds, parse & remove double quote characters from strings, when se
 
 other cmds use regexp as input, to parse & exclude any special characters from search string.
 
-this Go cmdline app is great for if you don't want to use regexp, & just use lines in files as literal strings for manipulation, especially to preserve double quotes.
+this Go cmdline app is great for:
+if you don't want to use regexp, & just use lines in files as literal strings for manipulation, especially to preserve double quotes.
