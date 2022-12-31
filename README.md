@@ -26,3 +26,7 @@ other cmds use regexp as input, to parse & exclude any special characters from s
 
 this Go cmdline app is great for:
 if you don't want to use regexp, & just use lines in files as literal strings for manipulation, especially to preserve double quotes.
+
+HowTo Make:
+
+go build
