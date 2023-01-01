@@ -1,7 +1,7 @@
 # litaf
-Literals As Files - manipulate found literal string line in file, using line in other files
+## Literals As Files - manipulate found literal string line in file, using line in other files
 
-Usage of litaf:
+### Usage of litaf:
 
   -b    new line before
   
@@ -18,7 +18,7 @@ Usage of litaf:
   
   -r    replace line
   
-Main use case:
+### Main use case:
 
 echo, & other cmds, parse & remove double quote characters from strings, when sending them to stdout.
 
@@ -27,6 +27,16 @@ other cmds use regexp as input, to parse & exclude any special characters from s
 this Go cmdline app is great for:
 if you don't want to use regexp, & just use lines in files as literal strings for manipulation, especially to preserve double quotes.
 
-HowTo Make:
+### HowTo Make:
 
 go build
+
+### Example Usage:
+
+See these 2 gists of mine where I use this app on linux to modify code:
+
+forkware.yaml
+
+forkware.sh
+
+https://gist.github.com/roelds
